@@ -1,0 +1,132 @@
+:root {
+	--color-background: #d9cdf7;
+	--color-accent: #271a45;
+	--typography-product-code: 300 10px/1 'Lato', sans-serif;
+	--typography-product-title: 600 32px/1 'Crimson Pro', serif;
+	--typography-product-price: 400 16px/1 'Lato', sans-serif;
+	--typography-button: 400 12px/1.33 'Lato', sans-serif;
+}
+
+* {
+	border-width: 0;
+	border-style: solid;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	color: inherit;
+	text-decoration: none;
+	list-style: none;
+}
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+	max-width: 100%;
+	height: 100%;
+	display: block;
+}
+
+html,
+body {
+	background-color: var(--color-background);
+	min-height: 100vh;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	max-width: 272px;
+	margin: 0 auto;
+	align-items: center;
+	min-height: 100vh;
+	justify-content: center;
+	gap: 13px;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+}
+
+.column.preview {
+	position: relative;
+	width: 100%;
+}
+
+.column.product {
+	gap: 20px;
+}
+
+.product-info {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+
+.product-info--code {
+	font: var(--typography-product-code);
+}
+
+.product-info--name {
+	font: var(--typography-product-title);
+}
+
+.product-info--price {
+	font: var(--typography-product-price);
+}
+
+.button {
+	padding: 8px 16px;
+	cursor: pointer;
+	align-self: flex-start;
+	transition: 0.6s;
+}
+
+.button:hover {
+	transform: scale(1.1);
+}
+
+.button.button-preview {
+	position: absolute;
+	right: 0px;
+	top: -8px;
+	background-color: transparent;
+}
+
+.button.button-add-to-cart {
+	font: var(--typography-button);
+
+	border: 0.5px solid;
+	border-radius: 32px;
+
+	background-color: transparent;
+	border-color: var(--color-accent);
+	transition: 0.3s;
+}
+
+.button.button-add-to-cart:hover {
+	color: var(--color-background);
+	background-color: var(--color-accent);
+}
+
+@media screen and (min-width: 768px) {
+	.container {
+		flex-direction: row;
+		max-width: 672px;
+	}
+
+	.column.preview {
+		width: 449px;
+		height: 253px;
+	}
+
+	.button.button-preview {
+		right: 50px;
+		top: 8px;
+	}
+}

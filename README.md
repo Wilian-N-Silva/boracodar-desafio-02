@@ -1,4 +1,4 @@
-<h1 align="center"><b>#boraCodar</b> um player de música</h1>
+<h1 align="center"><b>#boraCodar</b> um card de produto</h1>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -14,7 +14,7 @@
 <br>
 
 <p align="center">
-  <img alt="Player de música" src=".github/preview.jpg" width="100%">
+  <img alt="Um card de produto" src=".github/preview.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -22,15 +22,16 @@
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML e CSS
+- Javascript
 - Git e Github
 
 ## 💻 Projeto
 
-O Player de música é o primeiro projeto da série de desafios #boraCodar da Rocketseat!
+O card de produto é o segundo projeto da série de desafios #boraCodar da Rocketseat!
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/XnielIsj9qrix1qxAQLT9X/23boraCodar-Desafio-1/duplicate). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1195050984449538256). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 ## 📝 Licença
 
